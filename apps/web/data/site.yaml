@@ -1,0 +1,33 @@
+title: "Vaidic's Labs"
+domain: labs.vedify.in
+tagline: Conducting unsanctioned workflow experiments with volatile new stacks 🧪⚗️💥💻☣️
+url: https://labs.vedify.in
+author: Vaidic
+authorUrl: https://vaidicjoshi.in
+footer: "☣️ Engineered with ❤️ under highly unstable conditions"
+# ── UI options ──
+# "20 projects · 5 live · 5 in progress · 10 planned"
+# " 🛰️ [10 Live] 📡 [20 In Progress] 🌌 [30 Planned]"
+# view: polished | terminal | bento
+# theme: dark | light
+view: polished
+theme: dark
+mainSite: https://vedify.in
+mainSiteLabel: vedify.in
+wittyTagline:
+  - Mad scientist in a coffee lab ☕⚗️"
+  - High on agentic flow 🤖✨"
+  - Engineer on too much tea 🫖"
+  - 0 msgs → shipping anyway 🚢"
+  - Loops running wild, brain running wilder 🤖🌀"
+  - Writing prompts at the speed of thought 🏎️✨"
+  - Autopilot is on, still steering anyway 🦾🌊"
+  - Incurably addicted to the terminal flow 💻🌌"
+  - Deploying agents while chugging cold brew 🧊🤖"
+  - Localhost is a beautiful disaster 💣🏠"
+  - Sleep is just a long block non-operation 🛌💤"
+  - No specs, just vibes and velocity 📉💨"
+links:
+  github: https://github.com/vaidic
+social:
+  twitter: "@vaidic"

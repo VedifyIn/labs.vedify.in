@@ -1,0 +1,24 @@
+id: my-project
+title: My Project
+description: A short one-line description of what this project does
+longDesc: >-
+  A longer description that appears in featured cards. Explains the problem,
+  what was built, and why it matters. Only needed if featured: true.
+tech: Python · Category
+icon: flask
+color: purple
+status: todo
+# featured: true
+# featuredOrder: 1
+# stats:
+#   - label: Stat Name
+#     value: "42"
+#   - label: Another Stat
+#     value: "10"
+tags:
+  - Tag1
+  - Tag2
+links:
+  github: https://github.com/vaidic/my-project
+  # demo: https://...
+  # readmore: https://vaidic.dev/posts/my-project
