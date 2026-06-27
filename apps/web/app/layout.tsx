@@ -57,9 +57,6 @@ export const metadata: Metadata = {
     follow: true,
   },
   manifest: "/manifest.json",
-  icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-  },
   other: {
     "theme-color": "#0a0a0f",
   },
