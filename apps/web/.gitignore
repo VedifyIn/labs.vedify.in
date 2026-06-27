@@ -11,6 +11,7 @@ build/
 # Generated data (rebuilt by scripts/generate-data.mjs)
 public/data/projects.json
 public/data/site.json
+public/sw.js
 
 # Environment variables
 .env

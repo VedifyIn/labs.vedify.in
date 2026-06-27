@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, copyFileSync, readdirSync, existsSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import yaml from "js-yaml";
@@ -74,3 +74,9 @@ projects.sort((a, b) => {
 
 writeFileSync(join(outDir, "projects.json"), JSON.stringify(projects, null, 2));
 log(`✓ public/data/projects.json (${projects.length} projects)`);
+
+// Copy service worker to public/
+const swSrc = join(dataDir, "sw.js");
+const swDest = join(root, "public", "sw.js");
+copyFileSync(swSrc, swDest);
+log("✓ public/sw.js");
