@@ -1,0 +1,21 @@
+id: buransh
+title: Buransh
+description: A minimal Astro starter kit featuring a custom daisyUI/Tailwind theme, automated JSON-LD SEO schema, PWA capabilities, and an AI-powered content auditing workflow.
+longDesc: >-
+  A production-ready Astro starter with a custom daisyUI/Tailwind theme,
+  automated JSON-LD SEO schema generation, PWA offline support, and
+  AI-powered content auditing scripts. Built as a monorepo with Cloudflare
+  Workers deployment.
+tech: Astro · Tailwind · Cloudflare
+icon: sparkles
+color: orange
+status: in-progress
+tags:
+  - Astro
+  - Tailwind
+  - daisyUI
+  - PWA
+  - SEO
+  - Cloudflare
+links:
+  github: https://github.com/VedifyIn/buransh
