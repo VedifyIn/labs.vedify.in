@@ -1,12 +1,16 @@
 id: buransh
-title: Buransh
-description: A minimal Astro starter kit featuring a custom daisyUI/Tailwind theme, automated JSON-LD SEO schema, PWA capabilities, and an AI-powered content auditing workflow.
+title: 🌺 Buransh
+description: A customizable Astro 7 theme with automated JSON-LD SEO schema generation, a Supabase-backed engagement layer, and PWA offline support.
 longDesc: >-
-  A production-ready Astro starter with a custom daisyUI/Tailwind theme,
-  automated JSON-LD SEO schema generation, PWA offline support, and
-  AI-powered content auditing scripts. Built as a monorepo with Cloudflare
-  Workers deployment.
-tech: Astro · Tailwind · Cloudflare
+  A production-ready Astro starter built as a pnpm/Turborepo monorepo.
+  A dedicated schema package covers 23 content types with full JSON-LD
+  generation and Zod-validated frontmatter, deployable to either Cloudflare
+  Workers or Vercel via a single config switch. A Supabase-backed adapter
+  layer powers claps, ratings, threaded comments, bookmarks, and
+  Kindle-style highlights, with rule-based content-policy checks already
+  live and an AI-assisted auditing layer and MCP server scaffolded for
+  what's next.
+tech: Astro · Tailwind · Supabase
 icon: sparkles
 color: orange
 status: in-progress
@@ -14,8 +18,12 @@ tags:
   - Astro
   - Tailwind
   - daisyUI
+  - Supabase
   - PWA
   - SEO
   - Cloudflare
+  - Vercel
 links:
   github: https://github.com/VedifyIn/buransh
+  demo: https://buransh.labs.vedify.in/
+  readmore: https://vedify.in/buransh/

@@ -11,6 +11,7 @@ export interface Project {
   featured?: boolean;
   featuredOrder?: number;
   stats?: { label: string; value: string }[];
+  ribbon?: string;
   links: {
     github?: string;
     demo?: string;

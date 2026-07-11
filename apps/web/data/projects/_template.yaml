@@ -10,6 +10,7 @@ color: purple
 status: todo
 # featured: true
 # featuredOrder: 1
+# ribbon: "WIP"
 # stats:
 #   - label: Stat Name
 #     value: "42"
